@@ -23,8 +23,26 @@ export default function App() {
         headerTitleAlign: 'center',
       }}
         />
-        <Stack.Screen name="Profile" component={Profile} />
-        <Stack.Screen name="Contact" component={Contact} />
+        <Stack.Screen name="Profile" component={Profile}  options={{ title: 'Home',
+        headerStyle: {
+          backgroundColor: '#f4511e',
+        },
+        headerTintColor: '#fff',
+        headerTitleStyle: {
+          fontWeight: 'bold',
+        },
+        headerTitleAlign: 'center',
+      }}/>
+        <Stack.Screen name="Contact" component={Contact}  options={{ title: 'Home',
+        headerStyle: {
+          backgroundColor: '#f4511e',
+        },
+        headerTintColor: '#fff',
+        headerTitleStyle: {
+          fontWeight: 'bold',
+        },
+        headerTitleAlign: 'center',
+      }}/>
       </Stack.Navigator>
       <StatusBar style="auto" />
     </NavigationContainer>
