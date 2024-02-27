@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
+const style = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#F5FCFF',
-        allignItems: 'center',
         justifyContent: 'center',
+        alignItems: 'center',
     },
     navButton: {
         marginTop: 20,
@@ -16,4 +16,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default styles;
+export default style;
